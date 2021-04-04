@@ -1,0 +1,180 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+/*Body de desing.html de la Fase 3*/
+body
+{
+    background-color:#fdf5e6;
+    color:black;
+    font-family: 'Kiwi Maru', serif;
+}
+/*Body de index.html de la Fase 1 y 2*/
+body
+{
+    background-color:#fdf5e6;
+    color:black;
+    font-family: 'Kiwi Maru', serif;
+    text-align: center;
+}
+/*Bordes de index.html de la Fase 1 y 2*/
+.bordes
+{
+    border: black 2px solid;
+    width: 100%;
+    padding: 20px;
+    border-radius: 40px;
+}
+/*Bordes a de index.html de la Fase 1 y 2*/
+.bordes a
+{
+    background: black;
+    padding: 5px;
+    text-decoration: none;
+    color: white;
+}
+
+nav.container-nav
+{
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    left: 160px;
+    width: 100%;
+    max-width: 1200px;
+    box-shadow: 0px 4px 3px rgba(0,0,0,.5);
+}
+hr
+{
+    display: block;
+    color:royalblue;
+    margin: 15px auto;
+    width: 1200px;
+}
+.logo img
+{
+    display: block;
+    margin: auto;
+    margin-top: 70px;
+    margin-bottom: 10px;
+    width: 1200px; height: 190px;
+}
+.img-etiqueta
+{
+    text-align: center;
+    margin: 30px auto;
+}
+.img-atributo
+{
+    display: flex;
+    height: 205px;
+    margin-top: 40px;
+}
+.img-ronal img
+{
+    float: left;
+    width: 240px;
+    height: 270px;
+    border-radius: 40px;
+}
+.border-datos
+{
+    float: left;
+    border: 1px solid gray;
+    border-radius: 20px;
+    padding: 15px 15px;
+    margin-top: 25px;
+    margin-left: 50px;
+}
+.container
+{
+    width: 1200px;
+    margin: 0px auto;
+    background:transparent;
+    text-align: justify;
+}
+.container-nav
+{
+    width: 1200px;
+    margin: 0px auto;
+    background:midnightblue;
+    text-align: center;
+}
+.container-nav ul
+{
+    list-style: none;
+    font-weight: bold;   
+}
+.row
+{
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+.menu li
+{
+    position: relative;
+    display: inline-block;
+}
+.menu li a
+{
+    display: block;
+    padding: 15px 20px;
+    color: white;
+    text-decoration:none;
+}
+.menu li a:hover
+{
+    color:orange;
+    transition: all .3s;
+}
+.submenus
+{
+    position: absolute;
+    background:midnightblue;
+    font-size: 12px;
+    text-align: center;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+.menu li:hover .submenus
+{
+    display: block;
+    visibility: visible;
+    opacity: 1;
+}
+.centrar
+{
+    text-align: center;
+    margin: 15px 15px;
+}
+.iframe iframe
+{
+    width: 100%;
+    margin: 20px;
+    text-align: center;
+}
+.iframe p
+{
+    text-align: center;
+    margin: 30px;
+}
+.pie
+{
+    text-align: center;
+    width: 1200px;
+    margin: 0px auto;
+    background:orange;
+    box-shadow: 0px -4px 3px rgba(0,0,0,.5);
+}
+
+
+
+
+
+
+

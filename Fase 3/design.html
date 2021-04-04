@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/x-icon" href="img/icono.ico"/>
+    <!--Tipo de letra descagados de google fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Kiwi+Maru:wght@300;400;500&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" type="text/css" href="estilos.css">
+</head>
+<body>
+        <div class="logo">
+        <img src="img/logo_unad.png" >
+        </div>
+    <header>
+        <title>Etiquetas Básicas de HTML, Atributos y Valores</title>
+        <nav class="container-nav">
+            <ul class="menu">
+                <li><a href="design.html">Inicio</a></li>
+                <li><a href="#">Temas</a>
+                    <ul class="submenus">
+                        <li><a href="tema1.html">Tema 1</a></li>
+                        <li><a href="tema2.html">Tema 2</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Recursos Digitales</a>
+                    <ul class="submenus">
+                        <li><a href="recurso1.html">Recurso 1</a></li>
+                        <li><a href="#">Recurso 2</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Aprendizaje</a>
+                    <ul class="submenus">
+                        <li><a href="#">Aprendizaje 1</a></li>
+                        <li><a href="#">Aprendizaje 2</a></li>
+                    </ul>
+                </li>
+                <li><a href="autor.html">Autor</a></li>
+            </ul>
+        </nav>
+    </header>
+        <main>
+            <!--Hr para el diseño linea horizontal azul-->
+            <hr/>
+            <section class="container">
+                <div class="row">
+                    <article>
+                         <!--Diseño de proposito del sitio-->
+                         <h2 class="centrar">Home</h2>
+                        <h2 class="centrar">Proposito del Sitio</h2>
+                        <p>
+                            Esta pagina Web tendra recursos educativos digitales, multimedias e interactivos para brindar 
+                            la enseñanza necesaria a los estudiantes de la diferentes instituciones del país, todo esto raíz
+                            de la pandemia generada por el Covid-19 en nuestra actualidad.<br><br>
+                            Implementaremos<b> Etiquetas Basicas de HTML, Atributos y Valores</b> que es el tema principal
+                            para este sitio web desarrollado, sobre como es su sintaxis, su estructura y que se necesita para 
+                            poder diseñar una pagina web de manera correcta y ordenada, para su facil desempeño y viabilidad.<br><br>
+                        </p>
+                        <section class="img-atributo">
+                            <img src="img/atributos.png">
+                        </section>
+                    </article>
+                    <aside>
+                        <div class="iframe">
+                            <p><b>Termina Tus Estudios</b></p>
+                            <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FUniversidadUNAD%2F&tabs=timeline&width=
+                            340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="500" height="500" 
+                            style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="clipboard-write; encrypted-media; 
+                            picture-in-picture; web-share"></iframe>
+                        </div>
+                    </aside>
+                </div>
+            </section>
+        </main>            
+</body>
+<footer class="pie">
+        <div>
+            <!--Correo y Skype del Autor-->
+            <p><b>Skype:</b>Ronalgo.20    
+                <b>---Autor:</b> Ronal Gomez Rosero
+            <b>---E_Mail:</b>
+            <a href="https://outlook.live.com/owa/">
+                ronalgo.20@hotmail.com</a>
+            </p>
+            <h3>Fecha actualizada</h3>
+            <!--Codigo script para insertar fecha actualizada-->
+        <script>
+            var f = new Date();
+            document.write(f.getDate() + "/" + (f.getMonth() +1) + "/" + f.getFullYear());
+        </script>
+        </div>
+</footer>
+</html>
