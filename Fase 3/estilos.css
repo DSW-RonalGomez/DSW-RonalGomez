@@ -90,8 +90,17 @@ hr
     margin-top: 25px;
     margin-left: 50px;
 }
-.container
+.mp3
 {
+    display: flex;
+    border: 1px solid gray;
+    border-radius: 20px;
+    padding: 40px 40px;
+    width: 46%;
+    margin-left: 227px;
+}
+.container
+{   
     width: 1200px;
     margin: 0px auto;
     background:transparent;
