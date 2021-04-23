@@ -1,0 +1,243 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+/*Body de desing.html de la Fase 3 y 4*/
+body
+{
+    background-color: #fdf5e6;
+    color:black;
+    font-family: 'Kiwi Maru', serif;
+}
+/*Body de index.html de la Fase 1*/
+body.bordes
+{
+    background-color:#fdf5e6;
+    color:black;
+    font-family: 'Kiwi Maru', serif;
+    text-align: center;
+}
+/*Bordes de index.html de la Fase 1*/
+.bordes
+{
+    border: black 2px solid;
+    width: 100%;
+    padding: 20px;
+    border-radius: 40px;
+}
+/*Bordes a de index.html de la Fase 1*/
+.bordes a
+{
+    background: black;
+    padding: 5px;
+    text-decoration: none;
+    color: white;
+    border-radius: 20px;
+}
+.center-index
+{
+    background: -prefix-linear-gradient(top, Aquamarine, white);
+	background: linear-gradient(to bottom, Aquamarine, white);
+    border: black 2px solid;
+    border-radius: 40px;
+    margin: 0px auto;
+    padding-bottom: 10px;
+    display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+    width: 45%;
+}
+hr
+{
+    display: block;
+    color:royalblue;
+    margin: 15px auto;
+    width: 1200px;
+}
+/*Efecto en la imagen de la UNAD*/
+/*----------------------------------*/
+.efecto
+{
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+   
+}
+.logo
+{
+    flex: 1;
+    margin: 8px;
+}
+.logo:hover img
+{
+    width: 75%;
+    height: 52%;
+}
+/*----------------------------------*/
+.logo img
+{
+    object-fit: cover;
+    display: flex;
+    margin: auto;
+    margin-top: 70px;
+    margin-bottom: 8px;
+    width: 1200px; height: 100px;
+    box-shadow: 10px 15px 40px rgba(0,0,0,.3);
+    transition: all 400ms;
+    position: relative;
+    z-index: 2;
+}
+section.relative
+{
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    top: 200px;
+    flex-direction: column;
+	justify-content: center;
+	align-items: center;
+    width: 100%;
+}
+.img-etiqueta
+{
+    text-align: center;
+    margin: 30px auto;
+}
+.img-atributo
+{
+    display: flex;
+    height: 205px;
+    margin-top: 40px;
+}
+.img-ronal img
+{
+    margin-top: 90px;
+    float: left;
+    width: 240px;
+    height: 270px;
+    border-radius: 40px;
+}
+.border-datos
+{
+    float: left;
+    border: 1px solid gray;
+    border-radius: 20px;
+    padding: 15px 15px;
+    margin-top: 118px;
+    margin-left: 50px;
+}
+.mp3
+{
+    display: flex;
+    border: 1px solid gray;
+    border-radius: 20px;
+    padding: 40px 40px;
+    width: 46%;
+    margin-left: 227px;
+}
+.container
+{   
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    background:transparent;
+    text-align: justify;
+}
+nav.container-nav
+{
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    width: 100%;
+    box-shadow: 0px 4px 3px rgba(0,0,0,.5);
+}
+.container-nav
+{
+    width: 1200px;
+    margin: 0px auto;
+    background:black;
+    text-align: center;
+}
+.container-nav ul
+{
+    list-style: none;
+    font-weight: bold;   
+}
+.row
+{
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+.form1
+{
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.menu li
+{
+    position: relative;
+    display: inline-block;
+}
+.menu li a
+{
+    display: block;
+    padding: 15px 20px;
+    color: white;
+    text-decoration:none;
+}
+.menu li a:hover
+{
+    color:orange;
+    transition: all .3s;
+}
+.submenus
+{
+    position: absolute;
+    background:black;
+    font-size: 12px;
+    text-align: center;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+.menu li:hover .submenus
+{
+    display: block;
+    visibility: visible;
+    opacity: 1;
+}
+.centrar
+{
+    text-align: center;
+    margin: 15px 15px;
+}
+.iframe iframe
+{
+    width: 100%;
+    margin: 20px;
+    text-align: center;
+}
+.iframe p
+{
+    text-align: center;
+    margin: 30px;
+}
+
+.pie
+{
+    text-align: center;
+    width: 100%;
+    margin: 0px auto;
+    margin-top: 40px;
+    background:orange;
+    box-shadow: 0px -4px 3px rgba(0,0,0,.5);
+    box-shadow: 2px -20px 30px rgba(0,0,0,.3);
+}
+

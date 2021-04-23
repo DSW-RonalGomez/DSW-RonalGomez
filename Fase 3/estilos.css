@@ -9,7 +9,7 @@
 /*Body de desing.html de la Fase 3*/
 body
 {
-    background-color:#fdf5e6;
+    background-color: honeydew;
     color:black;
     font-family: 'Kiwi Maru', serif;
 }
@@ -36,17 +36,6 @@ body
     padding: 5px;
     text-decoration: none;
     color: white;
-}
-
-nav.container-nav
-{
-    position: fixed;
-    z-index: 1000;
-    top: 0;
-    left: 160px;
-    width: 100%;
-    max-width: 1200px;
-    box-shadow: 0px 4px 3px rgba(0,0,0,.5);
 }
 hr
 {
@@ -99,24 +88,32 @@ hr
     width: 46%;
     margin-left: 227px;
 }
-.container
-{   
-    width: 1200px;
-    margin: 0px auto;
-    background:transparent;
-    text-align: justify;
+nav.container-nav
+{
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    width: 100%;
+    box-shadow: 0px 4px 3px rgba(0,0,0,.5);
 }
 .container-nav
 {
     width: 1200px;
     margin: 0px auto;
-    background:midnightblue;
+    background:black;
     text-align: center;
 }
 .container-nav ul
 {
     list-style: none;
     font-weight: bold;   
+}
+.container
+{   
+    width: 1200px;
+    margin: 0px auto;
+    background:transparent;
+    text-align: justify;
 }
 .row
 {
@@ -143,7 +140,7 @@ hr
 .submenus
 {
     position: absolute;
-    background:midnightblue;
+    background:black;
     font-size: 12px;
     text-align: center;
     visibility: hidden;

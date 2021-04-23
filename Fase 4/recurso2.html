@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/icono.ico">
+    <!--Tipo de letra descagados de google fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Kiwi+Maru:wght@300;400;500&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" type="text/css" href="estilos.css">
+    <!--Estilos de iconos para el menu -->
+    <script src="https://kit.fontawesome.com/cef6ec03c1.js" crossorigin="anonymous"></script>
+</head>
+    <div class="efecto">
+        <div class="logo">
+        <img src="img/logo_unad.png" >
+        </div>
+    </div>
+<body>
+    <section class="relative">
+        <header>
+            <title>Recurso Digital 2</title>
+            <nav class="container-nav">
+                <ul class="menu">
+                    <li><a href="design.html"><i class="fas fa-home"></i>&nbsp;  Inicio</a></li>
+                    <li><a href="#"><i class="fas fa-book"></i>&nbsp;  Temas</a>
+                        <ul class="submenus">
+                            <li><a href="tema1.html">Etiquetas Básicas</a></li>
+                            <li><a href="tema2.html">Atributos</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#"><i class="fas fa-photo-video"></i>&nbsp;  Recursos Digitales</a>
+                        <ul class="submenus">
+                            <li><a href="recurso1.html">Recurso 1 - Video</a></li>
+                            <li><a href="recurso2.html">Recurso 2 - Audio</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#"><i class="fab fa-wpforms"></i>&nbsp;  Aprendizaje</a>
+                        <ul class="submenus">
+                            <li><a href="aprendizaje1.html">Aprendizaje 1</a></li>
+                            <li><a href="aprendizaje2.html">Aprendizaje 2</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="autor.html"><i class="fas fa-user-tie"></i>&nbsp;  Autor</a></li>
+                </ul>
+            </nav>
+        </header>
+            <main>
+                <!--Hr para el diseño linea horizontal azul-->
+                <hr/>
+                <section class="container">
+                    <div class="row">
+                        <article>
+                            <!--Diseño de tema 1-->
+                            <h2 class="centrar">Recurso Digital 2 (Audios de Autoria Propia)</h2>
+                            <h2 class="centrar">Etiquetas Basicas de HTML, Atributos y Valores.</h2><br>
+                            <h3 class="centrar">Parte 1</h3>
+                            <div class="mp3">
+                                <audio src="mp3/Etiquetas basicas Html 1.mp3" autoplay loop controls></audio>
+                            </div><br><br>
+                            <h3 class="centrar">Parte 2</h3>
+                            <div class="mp3">
+                                <audio src="mp3/Etiquetas basicas Html 2.mp3" autoplay loop controls></audio>
+                            </div>
+                        </article>
+                        <aside>
+                            <div class="iframe">
+                                <p><b>Termina Tus Estudios</b></p>
+                                <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FUniversidadUNAD%2F&tabs=timeline&width=
+                                340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="500" height="500" 
+                                style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="clipboard-write; encrypted-media; 
+                                picture-in-picture; web-share"></iframe>
+                            </div>
+                        </aside>
+                    </div>
+                </section>
+            </main>            
+        <footer class="pie">
+                <div>
+                    <!--Correo y Skype del Autor-->
+                    <p><b>Skype:</b>Ronalgo.20    
+                        <b>---Autor:</b> Ronal Gomez Rosero
+                    <b>---E_Mail:</b>
+                    <a href="https://outlook.live.com/owa/">
+                        ronalgo.20@hotmail.com</a>
+                    </p>
+                    <h3>Fecha actualizada</h3>
+                    <!--Codigo script para insertar fecha actualizada-->
+                <script>
+                    var f = new Date();
+                    document.write(f.getDate() + "/" + (f.getMonth() +1) + "/" + f.getFullYear());
+                </script>
+                </div>
+        </footer>
+    </section>
+</body>
+</html>
